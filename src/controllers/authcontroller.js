@@ -35,7 +35,7 @@ exports.signup = async (req, res) => {
     }
 }
 
-exports.login = async (res, req) => {
+exports.login = async (req, res) => {
     try {
         const { email, password } = req.body;
         if (!email || !password) {
